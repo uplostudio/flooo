@@ -1,0 +1,58 @@
+
+        <html lang='en-US'>
+        <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta property="og:type" content="website">
+        <link rel="shortcut icon" href="">
+        <link rel="apple-touch-icon" href="">
+        
+
+        <title>About us</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <style>
+        @media(max-width: 1190px) {
+}
+@media(max-width: 720px) {
+}
+
+        </style>
+        
+        </head><body>
+        
+  // NAVIGATION
+  <script>
+  const button = document.querySelector('[bruno="nav_button"]');
+  const overlay = document.querySelector('[bruno="nav_overlay"]');
+  const list = document.querySelector('[bruno="nav_list"]');
+  
+  // if(window.innerWidth < 1190) {
+  // overlay.innerHTML = list.outerHTML;
+  // list.remove();
+  // }
+
+  if(window.innerWidth < 1190) {
+  button.addEventListener("click", toggleOverlay);
+  list.style.display = 'none';
+  }
+
+  // overlay.style.transition = 'height 0.2s ease-in-out';
+  // overlay.style.height = '0px';
+  
+
+  function toggleOverlay() {
+  button.classList.toggle('is--open');
+
+  if(button.classList.contains('is--open')) {
+    list.style.display = 'flex';
+  } else {
+    list.style.display = 'none';
+  }
+  }
+  </script>
+        
+
+        
+        
+        </body>
+        </html>
