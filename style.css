@@ -437,10 +437,10 @@ form {
 .t--135 { top: calc(-135px * var(--m1)) ; }
 .mxw-714 { max-width: 714px; }
 .h-46 { height: calc(46px * var(--m1)) ; }
-.br-64 { border-radius: calc(64px * var(--m1)) ; }
-.h-68 { height: calc(68px * var(--m1)) ; }
-.w-68 { width: calc(68px * var(--m1)) ; }
-.h-12 { height: calc(12px * var(--m1)) ; }
+.br-64_m3 { border-radius: calc(64px * var(--m3)) ; }
+.h-68_m3 { height: calc(68px * var(--m3)) ; }
+.w-68_m3 { width: calc(68px * var(--m3)) ; }
+.h-12_m3 { height: calc(12px * var(--m3)) ; }
 .h-4 { height: calc(4px * var(--m1)) ; }
 .g-12 { gap: calc(12px * var(--m1)) ; }
 .br-8 { border-radius: calc(8px * var(--m1)) ; }
