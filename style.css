@@ -327,7 +327,7 @@ form {
   @media (max-width: 1190px) {
 }
 @media (max-width: 834px) {
-.h1 {font-size: 40px;}
+.h1 {font-size: 36px;}
 }
 
   :root {
@@ -396,12 +396,14 @@ form {
 .h-38 { height: calc(38px * var(--m1)) ; }
 .pt-12_m3 { padding-top: calc(12px * var(--m3)) ; }
 .pb-12_m3 { padding-bottom: calc(12px * var(--m3)) ; }
-.pl-32_m3 { padding-left: calc(32px * var(--m3)) ; }
-.pr-32_m3 { padding-right: calc(32px * var(--m3)) ; }
+.pl-40_m3 { padding-left: calc(40px * var(--m3)) ; }
+.pr-40_m3 { padding-right: calc(40px * var(--m3)) ; }
 .pt-100 { padding-top: calc(100px * var(--m1)) ; }
 .g-190 { gap: calc(190px * var(--m1)) ; }
 .c-248-248-248 { color: rgb(248, 248, 248); }
 .h-24 { height: calc(24px * var(--m1)) ; }
+.pl-32_m3 { padding-left: calc(32px * var(--m3)) ; }
+.pr-32_m3 { padding-right: calc(32px * var(--m3)) ; }
 .bw-1-1-1-1 { border-width: 1px 1px 1px 1px; }
 .bc-248-248-248 { border-color: rgb(248, 248, 248) ; }
 .w-532 { width: calc(532px * var(--m1)) ; }
